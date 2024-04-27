@@ -1,4 +1,4 @@
-package pe.edu.cibertec.APIRESTEC2GRUPO10.service;
+package edu.cibertec.APIRESTEC2GRUPO10.service;
 
 import edu.cibertec.APIRESTEC2GRUPO10.service.IPersonajeService;
 import lombok.AllArgsConstructor;
