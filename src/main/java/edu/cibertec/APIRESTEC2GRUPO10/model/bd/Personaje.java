@@ -1,4 +1,4 @@
-package edu.cibertec.APIRESTEC2GRUPO10.model.bd.dto;
+package edu.cibertec.APIRESTEC2GRUPO10.model.bd;
 
 import jakarta.persistence.*;
 import lombok.Data;

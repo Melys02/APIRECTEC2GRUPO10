@@ -1,6 +1,5 @@
 package edu.cibertec.APIRESTEC2GRUPO10.model.bd;
 
-import edu.cibertec.APIRESTEC2GRUPO10.model.bd.dto.Personaje;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
