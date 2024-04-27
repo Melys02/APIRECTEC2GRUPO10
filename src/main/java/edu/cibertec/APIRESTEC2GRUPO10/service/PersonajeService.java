@@ -1,16 +1,20 @@
-package edu.cibertec.APIRESTEC2GRUPO10.service;
+package pe.edu.cibertec.APIRESTEC2GRUPO10.service;
 
+import edu.cibertec.APIRESTEC2GRUPO10.service.IPersonajeService;
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import edu.cibertec.APIRESTEC2GRUPO10.model.bd.Personaje;
-import edu.cibertec.APIRESTEC2GRUPO10.repository.PersonajeRepositorio;
+import edu.cibertec.APIRESTEC2GRUPO10.repository.PersonajeRepository;
 
 import java.util.List;
 
-public class PersonajeService {
-    private PersonajeRepositorio personajeRepository;
+@Service
+@AllArgsConstructor
+public class PersonajeService implements IPersonajeService {
+    private PersonajeRepository personajeRepository;
 
-    public List<Personaje> getAllPersonajes() {
+    @Override
+    public List<Personaje> listapersonajes() {
         return personajeRepository.findAll();
     }
-
-
 }
