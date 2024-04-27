@@ -1,4 +1,4 @@
-package pe.edu.cibertec.APIRESTEC2Grupo10.controller;
+package edu.cibertec.APIRESTEC2GRUPO10.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
